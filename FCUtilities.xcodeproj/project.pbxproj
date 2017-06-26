@@ -8,48 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		21391D871F019928000B57C9 /* FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21391D851F019928000B57C9 /* FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21AC97AC1F019992008E40BD /* FCBasics.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97811F019992008E40BD /* FCBasics.h */; };
+		21AC97AC1F019992008E40BD /* FCBasics.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97811F019992008E40BD /* FCBasics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97AD1F019992008E40BD /* FCBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97821F019992008E40BD /* FCBasics.m */; };
-		21AC97AE1F019992008E40BD /* FCCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97831F019992008E40BD /* FCCache.h */; };
+		21AC97AE1F019992008E40BD /* FCCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97831F019992008E40BD /* FCCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97AF1F019992008E40BD /* FCCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97841F019992008E40BD /* FCCache.m */; };
-		21AC97B01F019992008E40BD /* FCConcurrentMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97851F019992008E40BD /* FCConcurrentMutableDictionary.h */; };
+		21AC97B01F019992008E40BD /* FCConcurrentMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97851F019992008E40BD /* FCConcurrentMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97B11F019992008E40BD /* FCConcurrentMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97861F019992008E40BD /* FCConcurrentMutableDictionary.m */; };
-		21AC97B21F019992008E40BD /* FCExtensionPipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97871F019992008E40BD /* FCExtensionPipe.h */; };
+		21AC97B21F019992008E40BD /* FCExtensionPipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97871F019992008E40BD /* FCExtensionPipe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97B31F019992008E40BD /* FCExtensionPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97881F019992008E40BD /* FCExtensionPipe.m */; };
-		21AC97B41F019992008E40BD /* FCNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97891F019992008E40BD /* FCNetworkActivityIndicator.h */; };
+		21AC97B41F019992008E40BD /* FCNetworkActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97891F019992008E40BD /* FCNetworkActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97B51F019992008E40BD /* FCNetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC978A1F019992008E40BD /* FCNetworkActivityIndicator.m */; };
-		21AC97B61F019992008E40BD /* FCNetworkImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC978B1F019992008E40BD /* FCNetworkImageLoader.h */; };
+		21AC97B61F019992008E40BD /* FCNetworkImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC978B1F019992008E40BD /* FCNetworkImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97B71F019992008E40BD /* FCNetworkImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC978C1F019992008E40BD /* FCNetworkImageLoader.m */; };
-		21AC97B81F019992008E40BD /* FCOpenInChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC978D1F019992008E40BD /* FCOpenInChromeActivity.h */; };
+		21AC97B81F019992008E40BD /* FCOpenInChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC978D1F019992008E40BD /* FCOpenInChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97B91F019992008E40BD /* FCOpenInChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC978E1F019992008E40BD /* FCOpenInChromeActivity.m */; };
-		21AC97BA1F019992008E40BD /* FCOpenInSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC978F1F019992008E40BD /* FCOpenInSafariActivity.h */; };
+		21AC97BA1F019992008E40BD /* FCOpenInSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC978F1F019992008E40BD /* FCOpenInSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97BB1F019992008E40BD /* FCOpenInSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97901F019992008E40BD /* FCOpenInSafariActivity.m */; };
-		21AC97BC1F019992008E40BD /* FCPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97911F019992008E40BD /* FCPickerViewController.h */; };
+		21AC97BC1F019992008E40BD /* FCPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97911F019992008E40BD /* FCPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97BD1F019992008E40BD /* FCPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97921F019992008E40BD /* FCPickerViewController.m */; };
-		21AC97BE1F019992008E40BD /* FCReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97931F019992008E40BD /* FCReachability.h */; };
+		21AC97BE1F019992008E40BD /* FCReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97931F019992008E40BD /* FCReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97BF1F019992008E40BD /* FCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97941F019992008E40BD /* FCReachability.m */; };
-		21AC97C01F019992008E40BD /* FCSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97951F019992008E40BD /* FCSheetView.h */; };
+		21AC97C01F019992008E40BD /* FCSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97951F019992008E40BD /* FCSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97C11F019992008E40BD /* FCSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97961F019992008E40BD /* FCSheetView.m */; };
-		21AC97C21F019992008E40BD /* FCSimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97971F019992008E40BD /* FCSimpleKeychain.h */; };
-		21AC97C31F019992008E40BD /* FCWebViewLongPressActivityMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97981F019992008E40BD /* FCWebViewLongPressActivityMenu.h */; };
+		21AC97C21F019992008E40BD /* FCSimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97971F019992008E40BD /* FCSimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21AC97C31F019992008E40BD /* FCWebViewLongPressActivityMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97981F019992008E40BD /* FCWebViewLongPressActivityMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97C41F019992008E40BD /* FCWebViewLongPressActivityMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97991F019992008E40BD /* FCWebViewLongPressActivityMenu.m */; };
-		21AC97C51F019992008E40BD /* NSArray+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC979A1F019992008E40BD /* NSArray+FCUtilities.h */; };
+		21AC97C51F019992008E40BD /* NSArray+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC979A1F019992008E40BD /* NSArray+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97C61F019992008E40BD /* NSArray+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC979B1F019992008E40BD /* NSArray+FCUtilities.m */; };
-		21AC97C71F019992008E40BD /* NSData+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC979C1F019992008E40BD /* NSData+FCUtilities.h */; };
+		21AC97C71F019992008E40BD /* NSData+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC979C1F019992008E40BD /* NSData+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97C81F019992008E40BD /* NSData+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC979D1F019992008E40BD /* NSData+FCUtilities.m */; };
-		21AC97C91F019992008E40BD /* NSString+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC979E1F019992008E40BD /* NSString+FCUtilities.h */; };
+		21AC97C91F019992008E40BD /* NSString+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC979E1F019992008E40BD /* NSString+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97CA1F019992008E40BD /* NSString+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC979F1F019992008E40BD /* NSString+FCUtilities.m */; };
-		21AC97CB1F019992008E40BD /* NSURL+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A01F019992008E40BD /* NSURL+FCUtilities.h */; };
+		21AC97CB1F019992008E40BD /* NSURL+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A01F019992008E40BD /* NSURL+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97CC1F019992008E40BD /* NSURL+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97A11F019992008E40BD /* NSURL+FCUtilities.m */; };
-		21AC97CD1F019992008E40BD /* NSURLSession+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A21F019992008E40BD /* NSURLSession+FCUtilities.h */; };
+		21AC97CD1F019992008E40BD /* NSURLSession+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A21F019992008E40BD /* NSURLSession+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97CE1F019992008E40BD /* NSURLSession+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97A31F019992008E40BD /* NSURLSession+FCUtilities.m */; };
-		21AC97CF1F019992008E40BD /* UIBarButtonItem+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A41F019992008E40BD /* UIBarButtonItem+FCUtilities.h */; };
+		21AC97CF1F019992008E40BD /* UIBarButtonItem+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A41F019992008E40BD /* UIBarButtonItem+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97D01F019992008E40BD /* UIBarButtonItem+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97A51F019992008E40BD /* UIBarButtonItem+FCUtilities.m */; };
-		21AC97D11F019992008E40BD /* UIColor+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A61F019992008E40BD /* UIColor+FCUtilities.h */; };
+		21AC97D11F019992008E40BD /* UIColor+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A61F019992008E40BD /* UIColor+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97D21F019992008E40BD /* UIColor+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97A71F019992008E40BD /* UIColor+FCUtilities.m */; };
-		21AC97D31F019992008E40BD /* UIDevice+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A81F019992008E40BD /* UIDevice+FCUtilities.h */; };
+		21AC97D31F019992008E40BD /* UIDevice+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97A81F019992008E40BD /* UIDevice+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97D41F019992008E40BD /* UIDevice+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97A91F019992008E40BD /* UIDevice+FCUtilities.m */; };
-		21AC97D51F019992008E40BD /* UIImage+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97AA1F019992008E40BD /* UIImage+FCUtilities.h */; };
+		21AC97D51F019992008E40BD /* UIImage+FCUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97AA1F019992008E40BD /* UIImage+FCUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97D61F019992008E40BD /* UIImage+FCUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97AB1F019992008E40BD /* UIImage+FCUtilities.m */; };
 		21AC97D91F019B2C008E40BD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AC97D81F019B2C008E40BD /* libz.dylib */; };
 /* End PBXBuildFile section */
@@ -201,28 +201,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AC97AC1F019992008E40BD /* FCBasics.h in Headers */,
-				21AC97CF1F019992008E40BD /* UIBarButtonItem+FCUtilities.h in Headers */,
-				21AC97B41F019992008E40BD /* FCNetworkActivityIndicator.h in Headers */,
-				21AC97B01F019992008E40BD /* FCConcurrentMutableDictionary.h in Headers */,
-				21AC97B81F019992008E40BD /* FCOpenInChromeActivity.h in Headers */,
-				21AC97C01F019992008E40BD /* FCSheetView.h in Headers */,
-				21AC97C71F019992008E40BD /* NSData+FCUtilities.h in Headers */,
-				21AC97BE1F019992008E40BD /* FCReachability.h in Headers */,
-				21AC97B21F019992008E40BD /* FCExtensionPipe.h in Headers */,
-				21391D871F019928000B57C9 /* FCUtilities.h in Headers */,
-				21AC97C21F019992008E40BD /* FCSimpleKeychain.h in Headers */,
-				21AC97D51F019992008E40BD /* UIImage+FCUtilities.h in Headers */,
-				21AC97B61F019992008E40BD /* FCNetworkImageLoader.h in Headers */,
-				21AC97D31F019992008E40BD /* UIDevice+FCUtilities.h in Headers */,
-				21AC97BA1F019992008E40BD /* FCOpenInSafariActivity.h in Headers */,
-				21AC97CD1F019992008E40BD /* NSURLSession+FCUtilities.h in Headers */,
-				21AC97BC1F019992008E40BD /* FCPickerViewController.h in Headers */,
-				21AC97C31F019992008E40BD /* FCWebViewLongPressActivityMenu.h in Headers */,
-				21AC97D11F019992008E40BD /* UIColor+FCUtilities.h in Headers */,
 				21AC97AE1F019992008E40BD /* FCCache.h in Headers */,
-				21AC97CB1F019992008E40BD /* NSURL+FCUtilities.h in Headers */,
-				21AC97C91F019992008E40BD /* NSString+FCUtilities.h in Headers */,
+				21AC97B01F019992008E40BD /* FCConcurrentMutableDictionary.h in Headers */,
+				21AC97B21F019992008E40BD /* FCExtensionPipe.h in Headers */,
+				21AC97B41F019992008E40BD /* FCNetworkActivityIndicator.h in Headers */,
+				21AC97B61F019992008E40BD /* FCNetworkImageLoader.h in Headers */,
+				21AC97B81F019992008E40BD /* FCOpenInChromeActivity.h in Headers */,
+				21AC97BA1F019992008E40BD /* FCOpenInSafariActivity.h in Headers */,
+				21AC97BC1F019992008E40BD /* FCPickerViewController.h in Headers */,
+				21AC97BE1F019992008E40BD /* FCReachability.h in Headers */,
+				21AC97C01F019992008E40BD /* FCSheetView.h in Headers */,
+				21AC97C21F019992008E40BD /* FCSimpleKeychain.h in Headers */,
+				21AC97C31F019992008E40BD /* FCWebViewLongPressActivityMenu.h in Headers */,
 				21AC97C51F019992008E40BD /* NSArray+FCUtilities.h in Headers */,
+				21AC97C71F019992008E40BD /* NSData+FCUtilities.h in Headers */,
+				21AC97C91F019992008E40BD /* NSString+FCUtilities.h in Headers */,
+				21AC97CB1F019992008E40BD /* NSURL+FCUtilities.h in Headers */,
+				21AC97CD1F019992008E40BD /* NSURLSession+FCUtilities.h in Headers */,
+				21AC97CF1F019992008E40BD /* UIBarButtonItem+FCUtilities.h in Headers */,
+				21AC97D11F019992008E40BD /* UIColor+FCUtilities.h in Headers */,
+				21AC97D31F019992008E40BD /* UIDevice+FCUtilities.h in Headers */,
+				21AC97D51F019992008E40BD /* UIImage+FCUtilities.h in Headers */,
+				21391D871F019928000B57C9 /* FCUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
