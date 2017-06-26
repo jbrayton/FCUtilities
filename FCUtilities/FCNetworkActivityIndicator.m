@@ -4,6 +4,7 @@
 //
 
 #import "FCNetworkActivityIndicator.h"
+#import <UIKit/UIKit.h>
 
 #if TARGET_OS_TV
 
