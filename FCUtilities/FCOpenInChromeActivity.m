@@ -4,12 +4,14 @@
 //
 
 #import "FCOpenInChromeActivity.h"
+#import <MobileCoreServices/MobileCoreServices.h>
 
 NSString *const FCActivityTypeOpenInChrome = @"FCActivityTypeOpenInChrome";
 
 @interface FCOpenInChromeActivity ()
 @property (nonatomic, copy) NSString *callbackSource;
 @property (nonatomic) NSURL *URL;
+@property (nonatomic) NSItemProvider *URLProvider;
 @property (nonatomic) NSURL *successCallbackURL;
 @end
 
@@ -107,6 +109,12 @@ NSString *const FCActivityTypeOpenInChrome = @"FCActivityTypeOpenInChrome";
             if (u && ! u.isFileURL) stringURL = u;
         } else if (! URL && [item isKindOfClass:NSURL.class]) {
             if (! ((NSURL *)item).isFileURL) URL = item;
+        } else if (! URL && [item isKindOfClass:NSExtensionItem.class]) {
+            for (NSItemProvider *itemProvider in [(NSExtensionItem *)item attachments]) {
+                if (! self.URLProvider && [itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeURL]) {
+                    self.URLProvider = itemProvider;
+                }
+            }
         }
     }
     
@@ -115,14 +123,28 @@ NSString *const FCActivityTypeOpenInChrome = @"FCActivityTypeOpenInChrome";
 
 - (void)performActivity
 {
-    [UIApplication.sharedApplication openURL:[NSURL URLWithString:[NSString stringWithFormat:
-        @"googlechrome-x-callback://x-callback-url/open/?url=%@&x-success=%@&x-source=%@",
-        [self.class conservativelyPercentEscapeString:self.URL.absoluteString],
-        [self.class conservativelyPercentEscapeString:(self.successCallbackURL ? self.successCallbackURL.absoluteString : @"")],
-        [self.class conservativelyPercentEscapeString:(self.callbackSource ?: @"")]
-    ]] options:@{} completionHandler:^(BOOL success) {
-        [self activityDidFinish:success];
-    }];
+    if (self.URLProvider) {
+        [self.URLProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *URL, NSError *error) {
+            self.URL = URL;
+            [self activityDidFinish:[UIApplication.sharedApplication openURL:[self chromeCallbackURL]]];
+        }];
+    } else {
+        [self activityDidFinish:[UIApplication.sharedApplication openURL:[self chromeCallbackURL]]];
+    }
+}
+
+- (NSURL *)chromeCallbackURL
+{
+    if (! self.URL) {
+        return nil;
+    }
+    
+    return [NSURL URLWithString:[NSString stringWithFormat:
+                                 @"googlechrome-x-callback://x-callback-url/open/?url=%@&x-success=%@&x-source=%@",
+                                 [self.class conservativelyPercentEscapeString:self.URL.absoluteString],
+                                 [self.class conservativelyPercentEscapeString:(self.successCallbackURL ? self.successCallbackURL.absoluteString : @"")],
+                                 [self.class conservativelyPercentEscapeString:(self.callbackSource ?: @"")]
+                                 ]];
 }
 
 @end
