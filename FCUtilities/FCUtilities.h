@@ -26,7 +26,6 @@ FOUNDATION_EXPORT const unsigned char FCUtilitiesVersionString[];
 #import <FCUtilities/FCOpenInChromeActivity.h>
 #import <FCUtilities/FCOpenInSafariActivity.h>
 #import <FCUtilities/FCPickerViewController.h>
-#import <FCUtilities/FCReachability.h>
 #import <FCUtilities/FCSheetView.h>
 #import <FCUtilities/FCSimpleKeychain.h>
 #import <FCUtilities/FCWebViewLongPressActivityMenu.h>

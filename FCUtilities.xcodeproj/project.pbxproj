@@ -26,8 +26,6 @@
 		21AC97BB1F019992008E40BD /* FCOpenInSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97901F019992008E40BD /* FCOpenInSafariActivity.m */; };
 		21AC97BC1F019992008E40BD /* FCPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97911F019992008E40BD /* FCPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97BD1F019992008E40BD /* FCPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97921F019992008E40BD /* FCPickerViewController.m */; };
-		21AC97BE1F019992008E40BD /* FCReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97931F019992008E40BD /* FCReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21AC97BF1F019992008E40BD /* FCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97941F019992008E40BD /* FCReachability.m */; };
 		21AC97C01F019992008E40BD /* FCSheetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97951F019992008E40BD /* FCSheetView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21AC97C11F019992008E40BD /* FCSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC97961F019992008E40BD /* FCSheetView.m */; };
 		21AC97C21F019992008E40BD /* FCSimpleKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 21AC97971F019992008E40BD /* FCSimpleKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,8 +74,6 @@
 		21AC97901F019992008E40BD /* FCOpenInSafariActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCOpenInSafariActivity.m; sourceTree = "<group>"; };
 		21AC97911F019992008E40BD /* FCPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCPickerViewController.h; sourceTree = "<group>"; };
 		21AC97921F019992008E40BD /* FCPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCPickerViewController.m; sourceTree = "<group>"; };
-		21AC97931F019992008E40BD /* FCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCReachability.h; sourceTree = "<group>"; };
-		21AC97941F019992008E40BD /* FCReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCReachability.m; sourceTree = "<group>"; };
 		21AC97951F019992008E40BD /* FCSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCSheetView.h; sourceTree = "<group>"; };
 		21AC97961F019992008E40BD /* FCSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCSheetView.m; sourceTree = "<group>"; };
 		21AC97971F019992008E40BD /* FCSimpleKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCSimpleKeychain.h; sourceTree = "<group>"; };
@@ -156,8 +152,6 @@
 				21AC97901F019992008E40BD /* FCOpenInSafariActivity.m */,
 				21AC97911F019992008E40BD /* FCPickerViewController.h */,
 				21AC97921F019992008E40BD /* FCPickerViewController.m */,
-				21AC97931F019992008E40BD /* FCReachability.h */,
-				21AC97941F019992008E40BD /* FCReachability.m */,
 				21AC97951F019992008E40BD /* FCSheetView.h */,
 				21AC97961F019992008E40BD /* FCSheetView.m */,
 				21AC97971F019992008E40BD /* FCSimpleKeychain.h */,
@@ -209,7 +203,6 @@
 				21AC97B81F019992008E40BD /* FCOpenInChromeActivity.h in Headers */,
 				21AC97BA1F019992008E40BD /* FCOpenInSafariActivity.h in Headers */,
 				21AC97BC1F019992008E40BD /* FCPickerViewController.h in Headers */,
-				21AC97BE1F019992008E40BD /* FCReachability.h in Headers */,
 				21AC97C01F019992008E40BD /* FCSheetView.h in Headers */,
 				21AC97C21F019992008E40BD /* FCSimpleKeychain.h in Headers */,
 				21AC97C31F019992008E40BD /* FCWebViewLongPressActivityMenu.h in Headers */,
@@ -312,7 +305,6 @@
 				21AC97C81F019992008E40BD /* NSData+FCUtilities.m in Sources */,
 				21AC97B11F019992008E40BD /* FCConcurrentMutableDictionary.m in Sources */,
 				21AC97B71F019992008E40BD /* FCNetworkImageLoader.m in Sources */,
-				21AC97BF1F019992008E40BD /* FCReachability.m in Sources */,
 				21AC97B51F019992008E40BD /* FCNetworkActivityIndicator.m in Sources */,
 				21AC97BD1F019992008E40BD /* FCPickerViewController.m in Sources */,
 				21AC97D41F019992008E40BD /* UIDevice+FCUtilities.m in Sources */,
