@@ -58,8 +58,12 @@ NSString *const FCActivityTypeOpenInSafari = @"FCActivityTypeOpenInSafari";
 - (void)performActivity
 {
     if (self.URLProvider) {
+        __weak FCOpenInSafariActivity* weakSelf = self;
         [self.URLProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *URL, NSError *error) {
-            [self activityDidFinish:[UIApplication.sharedApplication openURL:URL]];
+            weakSelf.URL = URL;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [weakSelf activityDidFinish:[UIApplication.sharedApplication openURL:URL]];
+            });
         }];
     } else {
         [self activityDidFinish:[UIApplication.sharedApplication openURL:self.URL]];

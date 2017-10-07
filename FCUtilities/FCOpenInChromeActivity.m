@@ -124,9 +124,12 @@ NSString *const FCActivityTypeOpenInChrome = @"FCActivityTypeOpenInChrome";
 - (void)performActivity
 {
     if (self.URLProvider) {
+        __weak FCOpenInChromeActivity* weakSelf = self;
         [self.URLProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *URL, NSError *error) {
-            self.URL = URL;
-            [self activityDidFinish:[UIApplication.sharedApplication openURL:[self chromeCallbackURL]]];
+            weakSelf.URL = URL;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [weakSelf activityDidFinish:[UIApplication.sharedApplication openURL:[weakSelf chromeCallbackURL]]];
+            });
         }];
     } else {
         [self activityDidFinish:[UIApplication.sharedApplication openURL:[self chromeCallbackURL]]];
